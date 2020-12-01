@@ -6,7 +6,7 @@ repl:
 
 .PHONY: fix
 fix:
-	poetry run black ./**.py
+	poetry run black challenge -l 79
 	poetry run isort .
 
 
