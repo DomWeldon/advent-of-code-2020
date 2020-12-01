@@ -2,7 +2,7 @@
 name = "advent-of-code-2020-01"
 version = "0.1.0"
 description = ""
-authors = ["Dom Weldon <dom.weldon@decisionlab.co.uk>"]
+authors = ["Dom Weldon <dom.weldon@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
