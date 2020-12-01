@@ -29,3 +29,10 @@ pub fn part1(input: &[u64]) -> u64 {
 
     p
 }
+
+#[aoc(day1, part2)]
+pub fn part2(input: &[u64]) -> u64 {
+    let p = find_sum_product(input, 2020, 3).unwrap();
+
+    p
+}
