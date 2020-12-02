@@ -1,4 +1,10 @@
 
+
+.PHONY: setup
+setup:
+	poetry install
+
+
 .PHONY: repl
 repl:
 	poetry run bpython
@@ -6,7 +12,7 @@ repl:
 
 .PHONY: fix
 fix:
-	poetry run black challenge -l 79
+	poetry run black day* utils -l 79
 	poetry run isort .
 
 

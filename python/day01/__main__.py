@@ -2,9 +2,12 @@
 import math
 import pathlib
 
+from utils import inputs
+
 from . import expenses
 
-INPUT_PATH = pathlib.Path("input/expenses")
+INPUT_PATH = inputs.input_path(1, "expenses")
+assert INPUT_PATH.exists(), INPUT_PATH
 
 
 if __name__ == "__main__":
