@@ -12,7 +12,7 @@ repl:
 
 .PHONY: fix
 fix:
-	poetry run black day* utils -l 79
+	poetry run black day* ./*.py utils -l 79
 	poetry run isort .
 
 
